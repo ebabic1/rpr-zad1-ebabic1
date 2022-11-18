@@ -6,6 +6,7 @@ public class App {
         for (String arg : args) {
             inputString += arg;
         }
+
         if(inputString.isEmpty()) {
             throw new RuntimeException("Unijeli ste prazan string!");
         }
